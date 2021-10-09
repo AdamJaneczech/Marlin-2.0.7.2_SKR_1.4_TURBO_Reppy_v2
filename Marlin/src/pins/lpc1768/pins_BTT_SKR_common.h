@@ -75,7 +75,7 @@
 #endif
 #if HOTENDS == 1
   #ifndef FAN1_PIN
-    #define FAN1_PIN                       P2_04 
+    #define FAN1_PIN                       P2_03 //changed from P2_04 -> problem with FAN MOSFET, fan needs to be connected to HE1 
   #endif
 #else
   #ifndef HEATER_1_PIN
@@ -83,7 +83,7 @@
   #endif
 #endif
 #ifndef FAN_PIN
-  #define FAN_PIN                          P2_03 
+  #define FAN_PIN                          P2_04 //changed from the original P2_03 FAN0 pin
 #endif
 #ifndef HEATER_BED_PIN
   #define HEATER_BED_PIN                   P2_05
