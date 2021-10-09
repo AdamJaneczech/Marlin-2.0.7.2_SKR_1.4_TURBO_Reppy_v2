@@ -1,3 +1,5 @@
+# Important note
+This firmware configuration has the FAN_PIN and FAN1_PIN pin numbers swapped on the SKR 1.4 (turbo) board. This is due to the fact that my board pins were damaged, hence the swap.
 # Marlin 3D Printer Firmware
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
